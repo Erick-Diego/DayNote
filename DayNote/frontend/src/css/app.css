@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: #e4e7ef;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+#app #left {
+  width: 350px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 10px;
+  padding: 30px 20px;
+  position: fixed;
+}
+#app #left strong {
+  color: #333;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+}
+#app #left #form {
+  margin-top: 30px;
+}
+#app #left #form .input-block-up #label-title {
+  color: #acacac;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+#app #left #form .input-block-up #input-title {
+  width: 100%;
+  height: 32px;
+  color: #666;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #d4d4d4;
+}
+#app #left #form .input-block-mid #label-notes {
+  margin-top: 10px;
+  color: #acacac;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+#app #left #form .input-block-mid #input-notes {
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  font-size: 16px;
+  color: #666;
+  border: none;
+  border-bottom: 2px solid #d4d4d4;
+  background: #fff;
+  resize: none;
+}
+#app #left #form .input-block-bottom #btn-enviar {
+  width: 100%;
+  border: none;
+  margin-top: 30px;
+  background: #fac5ba;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#app #left #form .spaceradio {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 20px 0 14px 0;
+  justify-content: space-around;
+}
+#app #left #form .spaceradio div {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+
+
+
+
+/*# sourceMappingURL=app.css.map */

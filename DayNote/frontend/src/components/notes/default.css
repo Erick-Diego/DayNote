@@ -1,0 +1,77 @@
+#app #main {
+    flex: 1;
+    margin-left: 380px;
+}
+#app #main #ulnotes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    list-style: none;
+}
+#app #main #ulnotes .notepad-infos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    flex-direction: column;
+}
+#app #main #ulnotes .notepad-infos #note {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#app #main #ulnotes .notepad-infos #note strong {
+    color: #333;
+    font-size: 20px;
+}
+#app #main #ulnotes .notepad-infos #note #x {
+    color: #f0684d;
+    font-size: 24px;
+    cursor: pointer;
+}
+#app #main #ulnotes .notepad-infos .input-block-mid2 #input-notes2 {
+    margin-top: 10px;
+    width: 100%;
+    height: 120px;
+    font-size: 16px;
+    color: #666;
+    border: none;
+    padding: 2%;
+    border-bottom: 2px solid #d4d4d4;
+    background: #fff;
+    resize: none;
+}
+#app #main #ulnotes .notepad-infos #changepriority {
+    width: 20px;
+    font-size: 24px;
+    color: #f0684d;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1000px) {
+    #app {
+    flex-direction: column;
+    }
+    #app #left {
+    position: relative;
+    width: 100%;
+    }
+    #app #main {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #app #main #ulnotes {
+    display: flex;
+    flex-direction: column;
+    }
+}
