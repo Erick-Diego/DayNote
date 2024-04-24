@@ -8,8 +8,8 @@ export default function ColorRadioButtons({ setFilter }) {
 
     const handleChange = (event) => {
         setSelectedValue(event.target.value);
-        setFilter(event.target.value); // Atualiza o estado do filtro
-        console.log(event.target.value); // Imprime o valor do filtro
+        setFilter(event.target.value); 
+        console.log(event.target.value); 
     };
 
     const controlProps = (item) => ({
