@@ -1,4 +1,3 @@
-// ColorRadioButtons.js
 import * as React from 'react';
 import { amber, orange } from '@mui/material/colors';
 import Radio from '@mui/material/Radio';
